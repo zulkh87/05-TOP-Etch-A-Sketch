@@ -9,3 +9,7 @@ channel.
 ...
 If you liked the project or learned something new, you can at least like his video and leave a comment.
 ...
+
+GitHub Pages Link:
+
+https://zulkh87.github.io/05-TOP-Etch-A-Sketch/
