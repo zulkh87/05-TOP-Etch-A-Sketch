@@ -8,11 +8,31 @@ body {
     background-color: #B22028;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+h1{
+    margin-top: 22px;
+}
+
+h1, .text-white{
+    color:#fff;
+}
+
+header p{
+    font-size: 24px;
+}
+
 #sketch-area {
     display: flex;
     flex-wrap: wrap;
     background-color: #222;
-    margin: 100px auto 0 auto;
+    margin: 50px auto 0 auto;
     outline: thick double #32a1ce;
 }
 
