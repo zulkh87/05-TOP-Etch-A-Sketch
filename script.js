@@ -10,13 +10,13 @@ const sliderValue = document.querySelector("#slider-value");
 
 sliderValue.textContent = `${slider.value} times ${slider.value} (Resolution)`;
 
-sketchArea.style.width = sketchArea.style.height = `${GRID}px`;
+sketchArea.style.width = sketchArea.style.height = sliderContainer.style.width = `${GRID}px`;
 
 function changeBackgroundColor(){
     this.style.backgroundColor = "#daa520";
 }
 
-function createGridCells() {
+function createGridCells(squaresPerSide) {
     const numberOfSquares = (squaresPerSide * squaresPerSide);
     const widthOrHeight = `${(GRID / squaresPerSide) - 2}px`
 
